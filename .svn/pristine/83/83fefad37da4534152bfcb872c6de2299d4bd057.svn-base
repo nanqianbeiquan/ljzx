@@ -1,0 +1,5 @@
+.disclaimer_block{padding:36px 30px 100px 30px;min-height:1000px;color:#666666;}
+.disclaimer_block .disclaimer_title{font-size:24px;font-weight:700;color:#666;}
+.disclaimer_block .disclaimer_sub_title{height:58px;line-height: 58px;font-size:14px;padding-bottom:7px;border-bottom:1px solid #d7d7d7;color:#999999;}
+.disclaimer_block .disclaimer_content{font-size:14px;line-height:28px;margin-top:20px;}
+.disclaimer_block .disclaimer_content .content_paragraph{}

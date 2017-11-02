@@ -1,0 +1,481 @@
+.body_block {
+	padding:15px 0px 15px 20px;
+}
+.body_block_title{
+	font-size:16px;
+	font-weight:700;
+	color:#666666;
+	padding:0px;
+}
+#AccountInfoBlock{
+	margin:10px 0px 6px 0px;
+}
+#AccountInfoBlock .account{
+	width:120px;
+	height:156px;
+	box-shadow: 2px 2px 12px #d7d7d7;
+	cursor:pointer;
+}
+#AccountInfoBlock .account .account_icon span{
+	position:relative;
+	z-index:1000;
+	color:#ffffff;
+	font-size:12px;
+	left:2px;
+	top:-2px
+}
+#AccountInfoBlock .account .account_num{
+	font-size:14px;
+	text-align: center;
+	margin:12px 0px 8px 0px;
+}
+#AccountInfoBlock .account .account_percent{
+	font-size:24px;
+	text-align: center;
+	color:#666666;
+	margin:0px 0px 27px 0px;
+}
+#AccountInfoBlock .account .account_name{
+	font-size:12px;
+	color:#666666;
+	font-weight:700;
+	text-align: center;
+}
+#AccountInfoBlock .account .account_index{
+	font-size:12px;
+	color:#666666;
+	text-align: center;
+	line-height: 20px;
+	font-weight:700;
+}
+#kaka{
+	position: absolute;
+	right: 0px;
+	width: 18px;
+	text-align: center;
+	
+}
+#AccountInfoBlock .account .position_name{
+	position: absolute;	
+	width:80px;
+	margin-left:20px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	bottom:1px;
+	font-size:12px;
+	color:#666666;
+	text-align: center;
+	line-height: 20px;
+	font-weight:700;
+	
+	
+}
+#AccountInfoBlock .account .account_index_right{
+	position: relative;
+    left: 0px;   
+    text-align: center;
+    color: #ffffff;
+    top: -4px;
+    font-size: 12px;
+}
+
+
+#AccountInfoBlock .account_back_0{
+	background:url(../../../images/modules/account/account_back_0.png) no-repeat 0px 80px;cursor: default;
+}
+#AccountInfoBlock .account_back_1{
+	background:url(../../../images/modules/account/account_back_1.png) no-repeat 0px 80px;
+}
+#AccountInfoBlock .account_back_2{
+	background:url(../../../images/modules/account/account_back_2.png) no-repeat 0px 80px;
+}
+#AccountInfoBlock .account_back_3{
+	background:url(../../../images/modules/account/account_back_3.png) no-repeat 0px 80px;
+}
+
+#AccountInfoBlock .account_back_0 .account_name{
+	color:#e4e4e4;
+}
+#AccountInfoBlock .account_back_0 .account_percent{
+	color:#e4e4e4;
+}
+
+#AccountInfoBlock .account .account_num_0{
+	color:#e4e4e4;
+}
+#AccountInfoBlock .account .account_num_1{
+	color:#7495fe;
+}
+#AccountInfoBlock .account .account_num_2{
+	color:#1aa6fa;
+}
+#AccountInfoBlock .account .account_num_3{
+	color:#fec414;
+}
+
+#AccountInfoBlock .account .account_icon .triangle_icon_0{
+	width: 0;
+    height: 0;
+    border-top: 30px solid #e4e4e4;
+    border-right: 30px solid transparent;
+}
+#AccountInfoBlock .account .account_icon .triangle_icon_1{
+	width: 0;
+    height: 0;
+    border-top: 30px solid #7495fe;
+    border-right: 30px solid transparent;
+}
+#AccountInfoBlock .account .account_icon .triangle_icon_2{
+	width: 0;
+    height: 0;
+    border-top: 30px solid #1aa6fa;
+    border-right: 30px solid transparent;
+}
+#AccountInfoBlock .account .account_icon .triangle_icon_3{
+	width: 0;
+    height: 0;
+    border-top: 30px solid #fec414;
+    border-right: 30px solid transparent;
+}
+
+#AccountInfoBlock #AccountListLeftBtn{
+	background:url(../../../images/modules/account/left_btn.png) no-repeat 0px 0px;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
+	width: 20px;
+    height: 36px;
+    cursor: pointer;
+    margin: 0px 25px 0px 23px;
+    
+}
+#AccountInfoBlock #AccountListLeftBtn:hover{
+	background:url(../../../images/modules/account/left_btn_hover.png) no-repeat 0px 0px;
+}
+#AccountInfoBlock #AccountListRightBtn{
+	background:url(../../../images/modules/account/right_btn.png) no-repeat 0px 0px;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	width: 20px;
+    height: 36px;
+	cursor: pointer;
+    margin: 0px 22px 0px 24px;
+}
+#AccountInfoBlock #AccountListRightBtn:hover{
+	background:url(../../../images/modules/account/right_btn_hover.png) no-repeat 0px 0px;
+}
+#AccountInfoBlock #AccountList{
+	width:903px;
+	overflow: hidden;
+	white-space : nowrap;
+	position:relative;
+	padding:2px 0px 8px 2px;
+}
+#AccountInfoBlock #AccountList .account{
+	margin:0px 31px 0px 0px;
+	position: relative;
+}
+
+.body_split_block .inline_div{
+	vertical-align: top;
+	margin:0px 0px 0px 10px;
+}
+
+.body_split_block .body_block{
+	margin:0px;
+}
+
+#ReloadAccountListRightHoverBtn{
+	display: none;
+	background:url(../../../images/modules/account/right_btn_hover.png) no-repeat 0px 0px;
+}
+#ReloadAccountListLeftHoverBtn{
+	display: none;
+	background:url(../../../images/modules/account/left_btn_hover.png) no-repeat 0px 0px;
+}
+
+#blacklist_overview_block{
+	left:0px;
+}
+
+#DynamicMonitoryInfo .monitor_dynamic_info{
+	width:120px;
+	font-size:12px;
+    border: 1px solid #d7d7d7;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #666666;
+    height: 20px;
+	line-height: 20px;
+	text-align: center;
+	margin:20px 15px 0px 0px;
+}
+#DynamicMonitoryInfo .monitor_dynamic_info:hover{
+	color:#2ea7e0;
+}
+#DynamicMonitoryInfo .monitor_dynamic_info span{
+	font-weight:700;
+}
+
+#MonitorOverview .overview_line{
+	margin:10px 0px;
+	padding:10px 10px 10px 0px;
+	width:260px;
+}
+#MonitorOverview .overview_line .total_overview{
+	background: url(../../../images/modules/index/overview_total.png) no-repeat 20px 0px;
+}
+#MonitorOverview .overview_line .relate_overview{
+	background:url(../../../images/modules/index/overview_relate.png) no-repeat 20px  0px;
+}
+#MonitorOverview .overview_line .overview_table_title{
+	padding-left:30px;
+	margin:15px 0px 20px 0px;
+}
+
+#MonitorOverview .overview_line .overview_up_icon{
+	background: url(../../../images/modules/index/overview_up.png) no-repeat 50px center;
+}
+#MonitorOverview .overview_line .overview_down_icon{
+	background: url(../../../images/modules/index/overview_down.png) no-repeat 50px center;
+}
+#MonitorOverview .overview_line .overview_line_icon{
+	background:url(../../../images/modules/index/overview_line.png) no-repeat 50px center;
+}
+#MonitorOverview .overview_line .overview_table table{
+	width:auto;
+	margin-left:30px;
+}
+#MonitorOverview .overview_line .overview_table table td{
+	width:65px;
+}
+
+#AccountMonitorCompany .company_num{
+	font-size:24px;
+	color:#333333;
+	text-align: center;
+}
+#AccountMonitorCompany .company_num:after{
+	content:"家";
+	font-size:12px;
+	color:#999999;
+}
+#AccountMonitorCompany .company_num span{
+	font-size:12px;
+	color:#999999;
+}
+#AccountMonitorCompany .monitor_level{
+	font-size:14px;
+	font-weight:700;
+	border-radius:5px;
+	width:70px;
+	height:25px;
+	line-height: 24px;
+	color:#ffffff;
+	text-align: center;
+	padding:0px 5px;
+}
+#AccountMonitorCompany .monitor_level_0{
+	background:#1bcc84;
+}
+#AccountMonitorCompany .monitor_level_1{
+	background:#1aa6fa;
+}
+#AccountMonitorCompany .monitor_level_2{
+	background:#f9bc04;
+}
+#AccountMonitorCompany .monitor_level_3{
+	background:#e95353;
+}
+#AccountMonitorCompany .account_level{
+	margin:5px 0px 0px 0px;
+	position: relative;
+    top: 20px;
+}
+#AccountMonitorCompany .account_list{
+	min-width:336px;
+	max-width: 970px;
+    vertical-align: top;
+    padding: 0px 32px;
+    margin: 10px 0px 0px 25px;
+}
+#AccountMonitorCompany .account_list:after{
+	content:"";
+	display: block;
+	width:100%;
+	border-top:1px solid #edeef2;
+	position:relative;
+	top:-39px;
+	left:-32px;
+	padding:0px 32px;
+}
+#AccountMonitorCompany .account_list .account{
+	text-align: center;
+	width:84px;
+	cursor: pointer;
+	margin: 20px 0px 0px 0px;
+}
+#AccountMonitorCompany .account_list .account .monitor_company_back{
+	width:10px;
+	height:50px;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	background:#edeef2;
+	position:relative;
+	left:7px;
+}
+#AccountMonitorCompany .account_list .account .monitor_company_percent{
+	background:#1aa6fa;
+	height:18px;
+	width:10px;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	position:relative;
+	left:-7px;
+	vertical-align:bottom;
+}
+#AccountMonitorCompany .account_list .account .monitor_company_percent .percent_value_block{
+	top:-21px;
+	left:-14px;
+	display: none;
+}
+#AccountMonitorCompany .account_list .account:hover .monitor_company_percent .percent_value_block{
+	display: block;
+}
+#AccountMonitorCompany .account_list .account .monitor_company_percent .percent_value{
+	font-size:12px;
+	color:#1aa6fa;
+	border:1px solid #1aa6fa;
+	text-align: center;
+	height:13px;
+	line-height: 13px;
+	width:34px;
+	border-radius: 2px;
+}
+#AccountMonitorCompany .account_list .account .monitor_company_percent .percent_icon{
+	width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #18A5FA;
+    position: relative;
+    left: 15px;
+}
+#AccountMonitorCompany .account_list .account .monitor_company_percent .percent_icon_blank{
+	width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #eeffff;
+    position: relative;
+    left: -4px;
+    top: -5px;
+}
+#AccountMonitorCompany .account_list .account .monitor_company_num{
+	font-size:12px;
+	color:#333333;
+	text-align: center;
+	margin:5px 0px 0px 0px;
+}
+#AccountMonitorCompany .account_list .account .account_name{
+	font-size:12px;
+	color:#333333;
+	text-align: center;
+}
+#AccountMonitorCompany .account_structure{
+	margin:0px 0px 0px 20px;
+}
+
+#OverviewRiskDistribution{
+	width:350px;
+	height:255px;
+	margin:0px auto;
+	padding:0px 20px 0px 0px;
+}
+#OverviewRiskBlock .overview_content{
+	position: relative;
+	top:-13px;
+}
+#OverviewRiskBlock .overview_total{
+	position: relative;
+	font-size:14px;
+	color:#666666;
+	font-weight:700;
+    left: 175px;
+    top: 118px;
+    width: 200px;
+    text-align: center;
+}
+#OverviewRiskBlock .risk_overview_list{
+	text-align: center;
+	padding:0px 20px 0px 0px;
+	position: relative;
+	top:-10px;
+}
+#OverviewRiskBlock .risk_overview_info{
+	width:50px;
+	font-size:12px;
+	text-align: center;
+	margin: 0px 28px;
+	cursor: pointer;
+}
+#OverviewRiskBlock .risk_overview_info .risk_overview_num{
+	height: 35px;
+    line-height: 35px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#OverviewRiskBlock .risk_overview_info .risk_overview_percent{
+	height:15px;
+	line-height: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+	color:#ffffff;
+}
+#OverviewRiskBlock .risk_overview_info .risk_overview_tips{
+	font-weight:700;
+	color:#666666;
+	height: 20px;
+    line-height: 20px;
+    margin: 2px 0px 0px 0px;
+}
+#OverviewRiskBlock .risk_overview_info_3 .risk_overview_num{
+	background:#fbe0e0;
+	color:#d44242;
+}
+#OverviewRiskBlock .risk_overview_info_3 .risk_overview_percent{
+	background:#e95353;
+}
+#OverviewRiskBlock .risk_overview_info_2 .risk_overview_num{
+	background:#fff4d5;
+	color:#d7ad31;
+}
+#OverviewRiskBlock .risk_overview_info_2 .risk_overview_percent{
+	background:#fec414;
+}
+#OverviewRiskBlock .risk_overview_info_1 .risk_overview_num{
+	background:#d6effe;
+	color:#1f93d9;
+}
+#OverviewRiskBlock .risk_overview_info_1 .risk_overview_percent{
+	background:#1aa6fa;
+}
+#OverviewRiskBlock .risk_overview_info_0 .risk_overview_num{
+	background:#d6f6e6;
+	color:#22be7f;
+}
+#OverviewRiskBlock .risk_overview_info_0 .risk_overview_percent{
+	background:#1bcc84;
+}
+
+#MonitorAreaMap{
+	width:800px;
+	height:500px;
+	margin: 0px 0px 20px 50px;
+}
+.monitor_range_list_block{
+	left: -75px;
+    top: 75px;	
+}
+#CurrentAccount{
+	position:relative;top:-3px;
+}

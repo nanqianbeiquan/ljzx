@@ -1,0 +1,99 @@
+ul,li{list-style: none;padding-left:12px;}
+
+.treeview{
+    overflow: hidden;
+    position: relative;
+}
+
+.treeview ul li{margin:0px 0px;background:url(../../images/modules/tree/treeview-default-line.png) 0px 0px no-repeat;position:relative;left:-3px;}
+.treeview ul li:before{margin:0px 0px;background:url(../../images/modules/tree/treeview_corner.png) 0px 0px no-repeat;position:relative;left:-3px;}
+.treeview ul li:last-child{margin:0px 0px;background:url(../../images/modules/tree/treeview_corner.png) 0px -1px no-repeat;}
+.treeview div{height:30px;line-height: 30px;font-size:12px;color:#333333;background:url(../../images/modules/tree/treeview-default-line.png) 9px 0px no-repeat;}
+.treeview div:first-child{background:url(../../images/modules/tree/treeview-default-line.png) 9px 10px no-repeat;}
+.treeview .child_root_account{padding-left:30px;}
+.treeview .root_account{font-size:14px;font-weight:700;height:40px;line-height: 40px;color:#333333;}
+.treeview .root_account:before{content:"";display: inline-block;width:22px;height:25px;background:url(../../images/modules/tree/root_account_icon.png) 0px 3px no-repeat;position: relative;top:4px;left:0px;margin:0px 0px;}
+.treeview .child_account:before{
+    content:"";display: inline-block;
+    width:30px;height:20px;
+    background:url(../../images/modules/tree/child_account_icon.png) 2px 3px no-repeat;
+    position: relative;top:4px;margin:0px 0px;
+    left: -12px;
+}
+.treeview .child_account span{
+    position: relative;
+    left:-9px;
+}
+.treeview .child_account span:hover{
+	cursor:pointer;
+}
+.treeview .root_account span:hover{
+	cursor:pointer;
+}
+.treeview .child_account span{
+	height:20px;
+	line-height:20px;
+	margin:4px 0px;
+	padding:0px 2px 0px 2px;
+}
+.treeview .root_account span{
+	height:20px;
+	line-height:20px;
+	margin:9px 0px;
+	padding:0px 2px 0px 2px;
+}
+.treeview .attach_account span{
+	height:20px;
+	line-height:20px;
+	margin:4px 0px;
+	padding:0px 2px 0px 2px;
+}
+.treeview .child_account span:hover{
+	background:#f6f6f6;
+	border-radius:2px;
+}
+.treeview .root_account span:hover{
+	background:#f6f6f6;
+	border-radius:2px;
+}
+.treeview .child_account .select_account{
+	background:#1aa6fa;
+	color:#ffffff;
+	font-weight:700;
+	border-radius:2px;
+}
+.treeview .child_account .select_account:hover{
+	background:#1aa6fa;
+	color:#ffffff;
+	border-radius:2px;
+}
+.treeview .root_account .select_account{
+	background:#1aa6fa;
+	font-weight:700;
+	color:#ffffff;
+	border-radius:2px;
+}
+.treeview .root_account .select_account:hover{
+	background:#1aa6fa;
+	color:#ffffff;
+	border-radius:2px;
+}
+.treeview .attach_account:before{content:"";display: inline-block;width:22px;height:20px;background:url(../../images/modules/tree/attach_account_icon.png) 2px 3px no-repeat;position: relative;top:4px;margin:0px 0px;}
+.treeview .opened_tree{height:auto;overflow: hidden;}
+.treeview .opened_tree .tree_click{cursor:pointer;content:"";display: inline-block;position:absolute;left:1px;top:10px;width:30px;height:10px;background:url(../../images/modules/tree/treeview-opened-btn.png) 0px 0px no-repeat;}
+.treeview .closed_tree{height:30px;overflow: hidden;}
+.treeview .closed_tree .tree_click{cursor:pointer;content:"";display: inline-block;position:absolute;left:1px;top:10px;width:30px;height:10px;background:url(../../images/modules/tree/treeview-closed-btn.png) 0px 0px no-repeat;}
+.treeview .tree_no_click{content:"";display: inline-block;position:absolute;left:1px;top:10px;width:30px;height:10px;background:url(../../images/modules/tree/treeview-account-line.png) 0px 4px no-repeat;}
+.treeview ul li .no_child:not(li){background:none;}
+.treeview li .no_child:not(li){background:none;}
+.treeview .closed_tree .child_account{background:none;}
+.treeview div span{
+    display: inline-block;
+    cursor: default;
+    max-width: 190px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+}
+.treeview ul .no_child .attach_account:last-of-type{background:url(../../images/modules/tree/treeview-default-line.png) 9px -780px no-repeat}

@@ -1,0 +1,26 @@
+.filter_block{font-size:14px;text-align: left;}
+.filter_block .filter_data{padding:0px 0px 7px 0px;}
+.filter_block .filter_data .filter_name{color:#666666;vertical-align: top;height:26px;line-height:26px;font-weight:700;}
+.filter_block .filter_data .filter_options{font-size:12px;color:#666666;vertical-align: top;}
+.filter_block .filter_data .option_text{background:#ffffff;width:100px;margin:4px 0px;}
+.filter_block .filter_data .option_text span{height:26px;line-height:26px;}
+.filter_block .filter_data .option_time{width:120px;}
+.filter_block .filter_data .option_time .time_png{width:17px;height:20px;border:1px solid #ccc;border-right:0px;padding:2px 2px 2px 4px;vertical-align: middle;}
+.filter_block .filter_data .option_time .time_png img{width:14px;height:14px;}
+.filter_block .filter_data .option_time input{margin:4px 0px;padding-left:2px;border:1px solid #ccc;width:90px;border-left:0px;height:24px;vertical-align: middle;cursor: pointer;}
+.filter_block .filter_data .option_input{width:120px;}
+.filter_block .filter_data .option_input input{margin:4px 0px;padding-left:2px;border:1px solid #ccc;width:113px;height:24px;vertical-align: middle;cursor: pointer;}
+
+.filter_block .filter_data .filter_options .selected span{display:inline-block;text-align:center;padding:0px 9px;background:#2ea7e0;color:#ffffff;height:20px;line-height:20px;border-radius:9px;}
+.filter_block .filter_data .filter_options .option{cursor:pointer;}
+.filter_block .filter_data .filter_options .option{display:inline-block;text-align:center;padding:0px 9px;height:20px;line-height:20px;border-radius:9px;cursor:pointer;position:relative;top:3px;}
+
+.filter_block .filter_data .option_drop{width:1020px;}
+.filter_block .filter_data .option_drop .drop_input{width:82px;border:1px solid #ccc;padding-left:6px;height:24px;vertical-align: middle;cursor: pointer;margin:4px 0px;}
+
+.filter_block .filter_data .option_drop .img_click{background:url(../../../images/common/arr_down.png)center no-repeat;border:1px solid #ccc;border-left:0px;height:24px;width:28px;text-align: center;line-height: 22px;cursor:pointer;}
+
+.time_span{background:#d7d7d7;height:1px;width:14px;}
+.option_block{max-width:1050px;vertical-align: top;}
+.selected_value{height:24px;padding:0px 20px;line-height:24px;cursor:pointer;background:#2ea7e0;color:#ffffff;border-radius:3px;margin:4px 4px 4px 0px;border:1px solid #2ea7e0;}
+.selected_value:hover{background:#ffffff;height:24px;color:#2ea7e0;line-height:24px;}

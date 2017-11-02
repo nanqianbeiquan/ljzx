@@ -1,0 +1,1 @@
+alter table monitorrelationperson modify Name varchar(60);

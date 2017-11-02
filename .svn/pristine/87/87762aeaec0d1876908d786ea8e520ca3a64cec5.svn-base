@@ -1,0 +1,19 @@
+.company_content{margin:20px 30px 20px 30px;border-right:1px solid #d7d7d7;min-height:600px;}
+.company_content .body_block_title{padding:0px 20px 0px 20px;}
+.company_list{vertical-align: top;padding:0px 20px 20px 20px;}
+.company_list .company{width:49%;}
+.company{width:240px;padding-bottom:20px;border-bottom:1px dashed #d7d7d7;}
+.company .company_name{color:#333333;padding:20px 0px 5px 0px;}
+
+.hot_company_content{position:relative;height:0px;left:900px;}
+.hot_company_content .hot_company_list{padding:0px 20px 20px 20px;}
+
+.today_company_content{margin:10px 30px 100px 30px;}
+.today_company_content .company_list{}
+.today_company_content .company_list .company_line{border-bottom:1px dashed #d7d7d7;}
+.today_company_content .company_list .company_line:last-child{border-bottom:0px dashed #d7d7d7;}
+.today_company_content .company_list .company_line .company{border:0px;width:315px;padding:20px;font-size:16px;}
+.today_company_content .company_list .company_line .company .company_name{padding-top:0px;}
+.today_company_content .company_list .company_line .company_info{font-size:14px;padding-top:3px;}
+
+.page_block{padding-top:30px;text-align: center;}

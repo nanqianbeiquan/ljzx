@@ -1,0 +1,34 @@
+.level_block{
+    position:relative;
+    width:100%;
+    background:red;
+    height:0px;
+    font-size:12px;
+    text-align: right;
+}
+.level_block .level_show{padding-right:10px;padding-bottom:10px;}
+.level_block .level_color{width:20px;height:8px;margin-right:2px;}
+
+.monitor_range_list_block{
+    height:0px;
+    position:relative;
+    width:100%;
+    text-align: right;}
+.monitor_range_list{text-align: center;width:280px;}
+.monitor_range_list .list_title{font-size:18px;color:#666666;font-weight: 700;}
+.monitor_range_list .list_sub_title{font-size:18px;color:#666666;font-weight: 700;}
+.monitor_range_list .list_title span{color:#e95353;}
+.monitor_range_list .list{font-size:16px;padding-top:18px;}
+.monitor_range_list .list .li .span{width:18px;height:18px;border-radius:50%;font-size:12px;color:#fff;}
+.monitor_range_list .list .li .span_1{background:#c0464e;}
+.monitor_range_list .list .li .span_2{background:#cb625f;}
+.monitor_range_list .list .li .span_3{background:#d77f71;}
+.monitor_range_list .list .li .span_4{background:#e3aa8c;}
+.monitor_range_list .list .li .span_5{background:#eccd96;}
+.monitor_range_list .list .li .name{width:50px;text-align: left;padding-left:2px;}
+.monitor_range_list .list .li .num{width:100px;text-align: right;}
+#monitor_area{width:80%;}
+
+.calender_selector_block{text-align: right;margin-top:10px;padding-right:10%;}
+
+.company_show_list .company_show_title{background:#fafafa;}

@@ -1,0 +1,58 @@
+body{background:#ffffff;}
+.body_content_6{height:100%;background:#ffffff;min-width:1210px;}
+
+.body_back_img{background:url(../../../images/modules/login/login_back.png)no-repeat 0px 80px;height:838px;width:100%;padding-top:80px;}
+.weixin_content{text-align: center;line-height:12px;padding:30px 0px;}
+.weixin_content .weixin_text{padding-top:4px;font-size:12px;color:#666666;}
+
+.footer{height:75px;padding:0px;font-size:14px;color:#666666;padding-top:25px;line-height:25px;}
+
+.login_block{position:relative;height:0px;width:1210px;margin:0 auto;text-align: right;top:60px;}
+.login_block .login_input_block{width:372px;height:540px;background:#ffffff;border-radius:10px;}
+.login_block_shadow{
+    box-shadow:-10px 0 10px rgba(168,168,168,0.15), /*左边阴影*/  
+    10px 0 10px rgba(168,168,168,0.15), /*右边阴影*/  
+    0 -10px 10px rgba(168,168,168,0.15), /*顶部阴影*/  
+    0 10px 10px rgba(168,168,168,0.15)  ; /*底边阴影*/  
+}
+.login_block .login_input_block .input_block{width:300px;margin:40px auto;text-align: center;}
+.login_block .login_input_block .input_block .login_title{font-size:18px;font-weight:700;color:#333333;text-align: left;margin-bottom:20px;}
+.login_block .login_input_block .input_block .login_module{margin-bottom:20px;}
+.login_block .login_input_block .input_block .login_module .module{width:150px;color:#333333;font-size:18px;border-bottom:2px solid #d7d7d7;height:38px;line-height: 38px;cursor:pointer;}
+.login_block .login_input_block .input_block .login_module .selected{border-bottom:2px solid #2ea7e0;}
+.login_block .login_input_block .input_block .input_values{margin:40px 0px 20px 0px;}
+.login_block .login_input_block .input_block .input_values input{width:238px;font-size:16px;border:1px solid #d7d7d7;height:34px;padding:0px 10px 0px 30px;}
+.login_block .login_input_block .input_block .input_values .user_account{background:url(../../../images/modules/login/user_input.png) no-repeat 4px;margin-bottom:25px;}
+.login_block .login_input_block .input_block .input_values .phone_account{background:url(../../../images/modules/login/phone_input.png) no-repeat 4px;margin-bottom:25px;}
+.login_block .login_input_block .input_block .input_values .user_password{background:url(../../../images/modules/login/password_input.png) no-repeat 4px;}
+.login_block .login_input_block .input_block .input_values .phone_password{background:url(../../../images/modules/login/password_input.png) no-repeat 4px;width:140px;}
+.login_block .login_input_block .input_block .input_values .phone_password_sender{background:#d7d7d7;color:#666666;font-size:16px;height:36px;width:100px;line-height:36px;}
+.login_block .login_input_block .input_block .input_values .send_allow{background:#2ea7e0;color:#ffffff;cursor:pointer;}
+.login_block .login_input_block .input_block .remember_password{font-size:12px;color:#333333;text-align: left;margin-left:10px;}
+.login_block .login_input_block .input_block .remember_password .inline_div{}
+.input_line{margin-bottom:24px;}
+.login_block .login_input_block .input_block .input_values .phone_code{padding-left:4px;    width:166px;}
+.login_block .login_input_block .input_block .remember_password input{height:16px;margin-right:2px;float:left;vertical-align: middle;margin:2px 4px 0 0;}
+.login_btn{width:280px;margin:20px auto;height:34px;line-height: 34px;font-size:18px;}
+.login_block .login_input_block .input_block .cut_line{height:14px;width:1px;background:#999999;margin:0px 5px;}
+.login_block .login_input_block .input_block .login_extra_block{font-size:12px;color:#666666;text-align: right;margin-right:10px;}
+.login_block .login_input_block .input_block .login_extra_block .user_register:hover{cursor:pointer;color:#2ea7e0;}
+.login_block .login_input_block .input_block .login_extra_block .account_foget:hover{cursor:pointer;color:#2ea7e0;}
+
+.login_back_title_block{position:relative;height:0px;width:1210px;margin:0 auto;top:170px;left:18px;}
+
+.input_value_block{height:339px;}
+
+.error_message_block{top:-30px;}
+.error_message{display: block;
+    width: 250px;
+    margin: 0 auto;
+    line-height: 22px;
+    background: url(../../../images/common/error_msg_icon.png) no-repeat 6px 4px;
+    border: 1px solid #faccc6;
+    background-color: #ffebeb;
+    text-align: left;
+    padding-left: 26px;
+    padding-right: 2px;
+    position: relative;
+    color: #e95353;}

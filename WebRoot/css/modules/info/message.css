@@ -1,0 +1,94 @@
+.user_content{padding:20px 40px;}
+.user_content .content_title{}
+.user_content .content_title .content_title_line{position:relative;height:0px;width:100%;top:30px;z-index:10;}
+.user_content .content_title .content_title_line .title_line{width:100%;height:1px;background:#d7d7d7;}
+.user_content .content_title .title_value{color:#333333;height:60px;width:110px;line-height: 60px;font-size:20px;background:#fff;position:relative;z-index: 20;font-weight:400;}
+
+.message_head{background:#f6f6f6;}
+.message_head .h_mode{cursor:pointer;width:100px;text-align: center;height:40px;line-height: 40px;font-size:16px;position:relative;top:1px;color:#666666;}
+.message_head .selected{background:#fff;border:1px solid #ccc;border-bottom:0px;}
+.message_config{height:50px;line-height:50px;border-bottom:1px solid #ccc;border-top:1px solid #ccc;padding:0px 10px 0px 0px;}
+.message_config .r_config{text-align: right;position:relative;height:0px;}
+.message_config .r_config .small_btn_2{
+    margin-left: 10px;
+    width: 65px;
+    height: 25px;
+    line-height: 25px;
+}
+.message_config .l_config{color:#666666;}
+.c_content input{margin:0px 9px;vertical-align: middle;height:20px;}
+
+.message_list{font-size:14px;}
+.message_list .message{border-bottom:1px solid #ccc;padding:0px 0px 0px 0px;}
+.message_list .message .message_preview{padding:11px 20px 13px 0px;}
+.message_list .message:hover .message_preview{background:#fbfbfb;}
+.message_list .message input[type="checkbox"]{position:relative;top:0px;}
+.message_list .message .message_title{cursor: pointer;color:#666666;font-weight: 700;}
+
+.message_list .message .new_span{display:none;width:23px;height:21px;position:relative;top:-1px;line-height:21px;color:#fff;font-size:12px;background:url(../../../images/modules/user/new.png)no-repeat center;}
+.message_list .message .new_mewssage .new_span{display:inline-block}
+.message_list .message .message_title:hover{color:#1aa6fa;}
+.message_list .message .message_type{padding-left:65px;margin-top:4px;font-size:12px;}
+.message_list .message .message_type .t_time_block{position:relative;height:0px;text-align: right;}
+.message_page{margin:30px 0px 0px 40px;padding-bottom:40px;}
+
+.message_read{font-size:16px;margin:10px 20px;}
+.message_read .l_span{width:40px;padding-left:20px;vertical-align: top;line-height: 30px;}
+.message_read .r_span{color:#666666;text-align: left;vertical-align: top;line-height: 30px;width:960px;}
+
+.c_content .idea_input{text-align: center;}
+.c_content .idea_text{width:96%;resize:none;height:200px;border:1px solid #d7d7d7;padding:6px 10px;}
+.c_content .submit_block{text-align: right;margin:20px 0px 0px 0px;}
+
+.history_list{border-top:1px solid #d7d7d7;padding-bottom:80px;}
+.history_list .idea{border-bottom:1px solid #d7d7d7;padding:20px 0px;}
+.history_list .idea .l_option{height:0px;position:relative;text-align: right;cursor: pointer;top:-3px;}
+.history_list .idea .r_content{margin-right:60px;padding:0px 10px;}
+.history_list .idea .l_option .option_img{vertical-align: middle;padding:0px 4px 4px 4px;}
+
+.input_count_block{position:relative;height:0px;text-align: right;top:-30px;margin-right:20px;color:#999999;}
+
+.page_block{padding-top: 30px; text-align: center;}
+
+
+.history_list .idea .lengjing_reply{line-height:14px;margin-top:17px;margin-left:10px;color:#666666;}
+.history_list .idea .lengjing_reply .reply_title{margin-bottom:10px;}
+.history_list .idea .lengjing_reply .reply_content_arr{position:relative;height:0px;top:-10px;left:76px;}
+.history_list .idea .lengjing_reply .reply_content_arr .content_arr{
+    width: 0px;
+    height: 0px;
+    border-width:0px 12px 12px 12px;
+    border-color:#edeef2 transparent;
+    border-style: solid;
+}
+.history_list .idea .lengjing_reply .reply_content{padding:8px 20px 8px 20px;;background:#edeef2;border-radius:6px;line-height:22px;height:94px;overflow: hidden;}
+.history_list .idea .lengjing_reply .reply_count{width:100%;text-align: right;position:relative;height:0px;top:-23px;}
+.history_list .idea .lengjing_reply .reply_count .count_value{padding-right:10px;color:#999999;}
+
+.message_list .message .unread_message{padding-left:34px;background:url(../../../images/modules/user/unread.png) no-repeat 5px center;}
+.message_list .message .read_message{padding-left:34px;background:url(../../../images/modules/user/read.png) no-repeat  5px center;font-weight:500;color: #999999;}
+.message_list .message .message_preview:hover .message_title{color:#666666;}
+.message_list .message .message_preview:hover .message_title{color:#1aa6fa;}
+.message_list .message .message_detail{overflow: hidden;}
+.message_list .message .message_preview .message_right_arr{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    left: 1078px;
+    top: 4px;
+}
+.message_list .message .message_preview .up_arr{background:url(../../../images/modules/user/up_arr.png) no-repeat;}
+.message_list .message:hover .message_preview .up_arr{background:url(../../../images/modules/user/down_hover_arr.png) no-repeat;}
+.message_list .message .message_preview .down_arr{background:url(../../../images/modules/user/up_arr.png) no-repeat;
+transform:rotate(180deg);
+-ms-transform:rotate(180deg); 	/* IE 9 */
+-moz-transform:rotate(180deg); 	/* Firefox */
+-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+-o-transform:rotate(180deg); 	/* Opera */
+}
+.message_list .message:hover .message_preview .down_arr{background:url(../../../images/modules/user/down_hover_arr.png) no-repeat;
+transform:rotate(180deg);
+-ms-transform:rotate(180deg); 	/* IE 9 */
+-moz-transform:rotate(180deg); 	/* Firefox */
+-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+-o-transform:rotate(180deg); 	/* Opera */}

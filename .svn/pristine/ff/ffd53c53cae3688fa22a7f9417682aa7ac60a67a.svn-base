@@ -1,0 +1,164 @@
+.overlap .lap_mask{position:fixed;top:0px;left:0px;z-index:2000;width:100%;height:100%;background:#000000;opacity:0.2; -moz-opacity:0.2; filter:alpha(opacity=20);}
+.overlap .lock_mask{position:fixed;top:0px;left:0px;z-index:6000;width:100%;height:100%;background:#ffffff;opacity:0.0; -moz-opacity:0.0; filter:alpha(opacity=0);cursor:default}
+.overlap .load_mask{position:fixed;top:0px;left:0px;z-index:7000;width:100%;height:100%;cursor:default;text-align: center;}
+.overlap .lap_block .lap_content{margin:0 auto;z-index:5001;position:fixed;top:0;margin:0 auto;background:#ffffff; 
+-moz-background-clip: border; /* Firefox 3.6 */ 
+-webkit-background-clip: border; /* Safari 4? Chrome 6? */ 
+background-clip: border-box; /* Firefox 4, Safari 5, Opera 10, IE 9 */ 
+-moz-background-clip: padding; /* Firefox 3.6 */ 
+-webkit-background-clip: padding; /* Safari 4? Chrome 6? */ 
+background-clip: padding-box; /* Firefox 4, Safari 5, Opera 10, IE 9 */ 
+-moz-background-clip: content; /* Firefox 3.6 */ 
+-webkit-background-clip: content; /* Safari 4? Chrome 6? */ 
+background-clip: content-box; /* Firefox 4, Safari 5, Opera 10, IE 9 */ }
+.overlap .lap_block .lap_content .lap_close_block{height:0px;position:relative;text-align: right;z-index:120;}
+.overlap .lap_block .lap_content .lap_close_block .lap_close{cursor:pointer;width:38px;height:38px;text-align: center;background:url(../../images/common/overlap_close.png)no-repeat center;}
+
+.lap_close_block .lap_close .close_left{display:none;width:18px;height:2px;position:relative;top:0px;top:6px;
+transform:rotate(45deg);
+-ms-transform:rotate(45deg); 	/* IE 9 */
+-moz-transform:rotate(45deg); 	/* Firefox */
+-webkit-transform:rotate(45deg); /* Safari 和 Chrome */
+-o-transform:rotate(45deg); 	/* Opera */}
+.lap_close_block .lap_close .close_right{display:none;width:18px;height:2px;position:relative;left:0px;top:-13px;
+transform:rotate(135deg);
+-ms-transform:rotate(135deg); 	/* IE 9 */
+-moz-transform:rotate(135deg); 	/* Firefox */
+-webkit-transform:rotate(135deg); /* Safari 和 Chrome */
+-o-transform:rotate(135deg); 	/* Opera */}
+
+.close_1 .lap_close{background:#2ea7e0;}
+.close_1 .lap_close .close_left{background:#ffffff;}
+.close_1 .lap_close .close_right{background:#ffffff;}
+
+.close_2 .lap_close{background:#FFFFFF;}
+.close_2 .lap_close .close_left{background:#9B9B9B;}
+.close_2 .lap_close .close_right{background:#9B9B9B;}
+
+.close_3 .lap_close{background:#FFFFFF;}
+.close_3 .lap_close .close_left{background:#FFFFFF;}
+.close_3 .lap_close .close_right{background:#FFFFFF;}
+.overlap .lap_block .lap_content  .close_3 .lap_close{background:url(../../images/common/overlap_close_white.png)no-repeat center;}
+.overlap .lap_block .lap_content  .close_4 .lap_close{background:url(../../images/common/overlap_close_blue.png)no-repeat center;}
+
+#MessageTipsOverlap{background:rgba(0,0,0,0.75);font-size:14px;color:#ffffff;border-radius:3px;padding:12px;text-align: center;}
+
+#MessageInfoOverlap .message_content_block{height:auto;min-height:96px;}
+#MessageInfoOverlap .content_info{width:414px;padding:10px;background:#f5f5f5;font-size:14px;color:#333333;margin:5px 0px 15px 55px;}
+#MessageInfoOverlap .content_info_type_2{
+    padding: 0px 10px;
+    background:#ffffff;
+    margin: 0px 0px 15px 54px;
+}
+
+.spinner {
+  margin: 0px auto;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top:40%;
+}
+ 
+.container1 > div, .container2 > div, .container3 > div {
+  width: 6px;
+  height: 6px;
+  background-color: #2ea7e0;
+ 
+  border-radius: 100%;
+  position: absolute;
+  -webkit-animation: bouncedelay 1.2s infinite ease-in-out;
+  animation: bouncedelay 1.2s infinite ease-in-out;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+ 
+.spinner .spinner-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+ 
+.container2 {
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+}
+ 
+.container3 {
+  -webkit-transform: rotateZ(90deg);
+  transform: rotateZ(90deg);
+}
+ 
+.circle1 { top: 0; left: 0; }
+.circle2 { top: 0; right: 0; }
+.circle3 { right: 0; bottom: 0; }
+.circle4 { left: 0; bottom: 0; }
+ 
+.container2 .circle1 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+ 
+.container3 .circle1 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+ 
+.container1 .circle2 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+ 
+.container2 .circle2 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+ 
+.container3 .circle2 {
+  -webkit-animation-delay: -0.7s;
+  animation-delay: -0.7s;
+}
+ 
+.container1 .circle3 {
+  -webkit-animation-delay: -0.6s;
+  animation-delay: -0.6s;
+}
+ 
+.container2 .circle3 {
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+}
+ 
+.container3 .circle3 {
+  -webkit-animation-delay: -0.4s;
+  animation-delay: -0.4s;
+}
+ 
+.container1 .circle4 {
+  -webkit-animation-delay: -0.3s;
+  animation-delay: -0.3s;
+}
+ 
+.container2 .circle4 {
+  -webkit-animation-delay: -0.2s;
+  animation-delay: -0.2s;
+}
+ 
+.container3 .circle4 {
+  -webkit-animation-delay: -0.1s;
+  animation-delay: -0.1s;
+}
+ 
+@-webkit-keyframes bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0.0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+ 
+@keyframes bouncedelay {
+  0%, 80%, 100% {
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 40% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}

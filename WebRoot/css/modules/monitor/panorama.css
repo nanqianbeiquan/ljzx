@@ -1,0 +1,14 @@
+.complex_info{padding:0px 0px 0px 103px;width:264px;border:1px solid #d7d7d7;border-radius:8px;height:90px;margin:20px 0px 0px 20px;}
+.complex_info .complex_num{font-size:36px;text-align: center;margin:9px 0px 3px 0px;}
+.complex_info .complex_name{font-size:14px;text-align: center;color:#999999;}
+.complex_img_1{background:url(../../../images/modules/monitor/complex_img_1.png) no-repeat left center;}
+.complex_img_1 .complex_num{color:#fec414;}
+.complex_img_2{background:url(../../../images/modules/monitor/complex_img_2.png) no-repeat left center;}
+.complex_img_2 .complex_num{color:#1aa6fa;}
+.complex_img_3{background:url(../../../images/modules/monitor/complex_img_3.png) no-repeat left center;}
+.complex_img_3 .complex_num{color:#1bcc84;}
+
+.panorama_block{margin:0px 0px 60px 0px;}
+.panorama_info{border:1px solid #d7d7d7;border-radius:7px;width:561px;margin:20px 0px 0px 20px;overflow: hidden;}
+.panorama_info .panorama_title{height:50px;font-size:16px;font-weight:700;color:#666666;border-bottom:1px solid #d7d7d7;background:#f5f8fd;padding:0px 0px 0px 20px;line-height: 50px;}
+.panorama_info .panorama_area{height:306px;}

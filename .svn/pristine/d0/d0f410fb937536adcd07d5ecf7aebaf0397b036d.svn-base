@@ -1,0 +1,522 @@
+.config_mode{position:relative;height:0px;width:0px;}
+.mode_list{}
+.config_mode .mode{text-align: center;padding:20px 0px 20px 0px;width:100px;cursor: pointer;}
+.config_mode .selected{color:#333333;background:#ffffff;}
+.config_mode .mode .select_border{position:relative;height:0px;text-align: center;top:-12px;display: none;}
+.config_mode .mode .select_border .border_line{height:1px;background:#2ea7e0;}
+.config_mode .mode .select_border img{position:relative;top:6px;}
+.config_mode .selected .select_border{display: none;}
+
+.config_content{min-height:1000px;padding-left:0px;border-left:100px solid #f5f5f5;}
+.config_content .config_content_padding{
+    margin-left:60px;
+}
+.config_content .config_block{padding-top:40px;}
+.config_content .config_block .config_title{margin-bottom:20px;font-size:18px;color:#333333;font-weight:500;}
+.config_content .config_block .config_table{width:90%;}
+.config_content .config_block .config_table td:first-child{background:#F5F8FD;width:25%;text-align: center;padding:0px;color:#666666;font-weight:700;}
+.config_content .config_block .config_table td:nth-child(3){background:#F5F8FD;width:25%;text-align: center;padding:0px;color:#666666;font-weight:700;border:1px solid #d7d7d7;}
+.selector_option{min-width:80px;}
+.selector_option .selector{width:13px;height:13px;border-radius:50%;border:1px solid #aaaaaa;margin:0px 10px;cursor: pointer;vertical-align: middle;}
+.selector_option .selected{width:5px;height:5px;border:5px solid #aaaaaa;}
+.selector_option .value{line-height: 15px;color: #666666;}
+
+.checkor{min-width:120px;margin-right:20px;vertical-align: middle;margin-bottom:10px;}
+.checkor .check_option{margin-right:10px;vertical-align: middle;}
+.checkor .check_mark{color:#999999;line-height:20px;padding-right:10px;}
+.checkor .value{line-height:20px;padding-right:10px;}
+
+.config_selector{vertical-align: top;margin-bottom:60px;color:#666666;}
+.check_editor{padding-left:23px;margin-bottom:10px;}
+.check_editor .value{margin-right:20px;}
+.check_editor input{border-bottom:1px solid #d7d7d7;width:200px;}
+
+.config_content .btn_block{text-align: left;margin-top:40px;}
+
+.email_confirm .btn_block{margin-top:12px;}
+
+.email_list .delete_btn{width:15px;height:15px;background:url(../../../images/modules/user/email_del.png);cursor: pointer;margin-left:0px;}
+
+.config_value .new_btn_block{position:relative;height:0px;left:72px;top:79px;}
+.config_value .new_btn_block .config_selector{line-height: 22px;height:22px;cursor: pointer;}
+.config_value .new_btn_block .add_img{background:url(../../../images/modules/user/add_email.png) no-repeat;width:14px;height:14px;vertical-align: middle;}
+.config_value .new_btn_block .config_selector:hover>#email_btn .add_img{background:url(../../../images/modules/user/add_email_hover.png) no-repeat}
+.config_value .new_btn_block .config_selector:hover{color:#2ea7e0;}
+.email_list .delete_btn .close_left{display:none;width:10px;height:2px;position:relative;left:3px;top:-2px;background:#ffffff;
+transform:rotate(45deg);
+-ms-transform:rotate(45deg); 	/* IE 9 */
+-moz-transform:rotate(45deg); 	/* Firefox */
+-webkit-transform:rotate(45deg); /* Safari 和 Chrome */
+-o-transform:rotate(45deg); 	/* Opera */}
+.email_list .delete_btn .close_right{display:none;width:10px;height:2px;position:relative;left:3px;top:-21px;background:#ffffff;
+transform:rotate(135deg);
+-ms-transform:rotate(135deg); 	/* IE 9 */
+-moz-transform:rotate(135deg); 	/* Firefox */
+-webkit-transform:rotate(135deg); /* Safari 和 Chrome */
+-o-transform:rotate(135deg); 	/* Opera */}
+
+.config_row{margin:20px 0px;color:#666666;}
+.config_row .l_row{text-align: right;padding-right:14px;width: 61px;}
+.config_row input{height:26px;border:1px solid #D7D7D7;padding:2px 10px;width:200px;}
+
+.error_row .r_row input{border:1px solid #e95353}
+.error_row .r_row .row_state{background:url("../../../images/common/error_tips.png") no-repeat center;width:18px;height:18px;margin:10px;}
+.ok_row .r_row input{border:1px solid #1bcc84}
+.ok_row .r_row .row_state{background:url("../../../images/common/ok_tips.png") no-repeat center;width:18px;height:18px;margin:10px;}
+
+.edit_title{margin-bottom:20px;}
+.error_message{width:252px;margin:0 auto;height:22px;line-height:22px;background:url(../../../images/common/error_msg_icon.png) no-repeat 6px;border:1px solid #faccc6;background-color:#ffebeb;text-align: left;padding-left:26px;color: #e95353; }
+#new_phone_code{margin-left:6px;}
+
+#AccountOperateDetail{
+    margin:0px 20px 0px 30px;
+}
+#AccountOperateDetail .company_detail_block{
+    border-bottom:1px solid #d7d7d7;
+    height: 20px;
+    padding:26px 0px 20px 0px;
+}
+#AccountOperateDetail .current_account_name{
+    font-size:18px;
+    color:#333333;
+}
+#AccountOperateDetail .operate_detail_block{
+    border-bottom:1px solid #d7d7d7;
+    height:26px;
+    padding:12px 0px 12px 10px;
+}
+#AccountOperateDetail .operate_detail_block .operate_block{
+    margin:0px 65px 0px 0px;
+}
+#AccountOperateDetail .operate_detail_block .span_name{
+    font-size:14px;
+    color:#666666;
+    font-weight:700;
+}
+#AccountOperateDetail .operate_detail_block select{
+    height:26px;
+    border:1px solid #d7d7d7;
+    width:120px;
+}
+#AccountOperateDetail .operate_detail_block input{
+    height:26px;
+    border:1px solid #d7d7d7;
+    width:120px;
+}
+#AccountConfig{
+    min-height:800px;
+}
+#DepartmentBlock{
+    min-height:1000px;
+    padding-bottom:100px;
+    padding:0px 0px;
+    width:288px;
+    border-right:1px solid #d7d7d7;
+}
+#DepartmentBlock .department_name{
+    height:58px;
+    font-size:18px;
+    color:#666666;
+    margin-bottom: 10px;
+    line-height:58px;
+    padding:0px 0px 0px 18px;
+}
+#DepartmentBlock .account_num_block{
+    /* width:82px;
+    border:1px solid #d7d7d7; */
+    height:56px;
+    padding:0px 0px 0px 50px ;
+}
+/* #DepartmentBlock .total_account_num{
+    margin:0px 10px 0px 0px;
+    background:url(../../../images/modules/user/total_account_sum_icon.png) no-repeat 5px 7px;
+} */
+/* #DepartmentBlock .remaining_account_num{
+    background:url(../../../images/modules/user/remaining_account_num_icon.png) no-repeat 5px 7px;
+} */
+#DepartmentBlock .account_num_block .account_num{
+    font-size:24px;
+    color:#666666;
+    /* font-weight:700; */
+    /* color:#1aa6fa; */
+    margin:6px 0px 2px 0px;
+}
+#DepartmentBlock .account_num_block .account_title{
+    font-size:12px;
+    color:#333333;
+    margin-left: -7px;
+    padding-top: 4px;
+    position:relative;
+    left:-10px;
+}
+#DepartmentBlock .account_num_block .red_account_title_icon:before{
+    content:" ";
+    display:inline-block;
+    width:5px;
+    height:5px;
+   	background:#e95353;
+   	border-radius:50%;
+   	margin:0px 5px;
+   	position:relative;
+   	top:-2px;
+}
+#DepartmentBlock .account_num_block .blue_account_title_icon:before{
+    content:" ";
+    display:inline-block;
+    width:5px;
+    height:5px;
+   	background:#1aa6fa;
+   	border-radius:50%;
+   	margin:0px 5px;
+   	position:relative;
+   	top:-2px;
+}
+#DepartmentBlock .account_num_block .green_account_title_icon:before{
+    content:" ";
+    display:inline-block;
+    width:5px;
+    height:5px;
+   	background:#1bcc84;
+   	border-radius:50%;
+   	margin:0px 5px;
+   	position:relative;
+   	top:-2px;
+}
+#DepartmentBlock .parting_line{
+    border-top: 1px solid #d7d7d7;
+    margin:20px 0px 0px 0px;
+}
+#DepartmentBlock .account_tree_block{
+	/* border:1px solid #d7d7d7; */
+    /* padding: 20px 10px 20px 10px; */    
+    margin:20px 0px 0px 0px;
+}
+#CurrentAccountSub{
+    height:100%;
+    vertical-align: top;
+    padding:0px 15px;
+    width: 769px;
+}
+#CurrentAccountSub .current_account_name{
+    height:58px;
+    font-size:18px;
+    color:#666666;
+    border-bottom: 1px solid #d7d7d7;
+    line-height:58px;
+}
+#CurrentAccountSub .monitor_num_block .monitor_num{
+    font-size:16px;
+    width:60px;
+    color:#333333;
+    text-align: left;
+    padding:10px 0px 10px 30px;
+    border:1px solid #d7d7d7;
+    border-bottom: 0px;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+}
+
+/* 显示隐藏的溢出文本 */
+#CurrentAccountSub .monitor_num_block .monitor_num:hover{  
+     overflow: visible;  
+}  
+
+
+#CurrentAccountSub .monitor_num_block .monitor_num_block_arr{
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 5px solid #ffffff;
+    position: relative;
+    left: 40px;
+}
+#CurrentAccountSub .monitor_num_block .monitor_num_span{
+    background:#1aa6fa;
+    color:#ffffff;
+    width:92px;
+    font-size:12px;
+    text-align: center;
+    padding:5px 0px 0px 0px;
+}
+#CurrentAccountSub #MonitorTotalNum{
+    margin:15px 0px 0px 0px;
+    background:url(../../../images/modules/user/monitor_total_num_icon.png) no-repeat 8px 13px;
+}
+#CurrentAccountSub #MonitorRemainingNum{
+    margin:10px 0px 0px 0px;
+    background:url(../../../images/modules/user/monitor_remaining_num_icon.png) no-repeat 8px 13px;
+}
+#CurrentAccountSub .account_table_title{
+    height:60px;
+    font-size:18px;
+    color:#333333;
+    margin-top: 15px;
+    border-top: 1px solid #d7d7d7;
+    line-height:60px;
+}
+#CurrentAccountSub table tr td:last-child{
+    border-left:1px solid #d7d7d7;
+}
+#CurrentAccountSub .monitor_num_block{
+    vertical-align: top;
+}
+#CurrentAccountSub .account_chart_block{
+    margin:15px 0px 0px 20px;
+    vertical-align: top;
+}
+#CurrentAccountSub .account_chart_block .total_monitor_num{
+    left: -29px;
+    top: 46px;
+    width: 200px;
+    text-align: center;
+}
+#CurrentAccountSub .account_chart_block .monitor_num{
+    font-size:16px;
+    color:#333333;
+    text-align: center;
+    font-weight: 900;
+    
+}
+#CurrentAccountSub .account_chart_block .monitor_span{
+    font-size:17px;
+    color:#999999;
+    text-align: center;
+    line-height: 32px;
+    height:12px;
+}
+#CurrentAccountSub .account_chart_block .chart_block_title{
+    font-size:12px;
+    color:#333333;
+    margin:0px 0px 0px 15px;
+}
+#UserAccountPie{
+    width:140px;
+    height:140px;
+}
+#CurrentAccountSub .monitor_detail_block{
+    margin: 50px 0px 0px 0px;
+    width: 468px;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 0px 0px 20px 10px;
+}
+#CurrentAccountSub .monitor_account_percent_block{
+    margin: 0px 12px 0px 0px;
+    min-height:107px;
+}
+#CurrentAccountSub .monitor_account_percent{
+    margin:2px 0px;
+}
+#logListTablePageDiv{
+	text-align: center;
+    padding-top: 30px;
+}
+#CurrentAccountSub .monitor_account_percent .monitor_color{
+    display: inline-block;
+    width:10px;
+    height: 10px;
+    border-radius:50%;
+}
+#CurrentAccountSub .monitor_percent{
+    font-size:12px;
+    color:#333333;
+    display: inline-block;
+    width: 30px;
+    text-align: right;
+    padding: 0px 5px 0px 0px;
+}
+#CurrentAccountSub .monitor_account{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    font-size:12px;
+    color:#666666;
+    width:99px;
+    white-space: nowrap;overflow: hidden;text-overflow: ellipsis;
+}
+#CurrentAccountSub .monitor_account_percent_0:before{
+    background:#72cb40;
+}
+#CurrentAccountSub .monitor_account_percent_1:before{
+    background:#ffb638;
+}
+#CurrentAccountSub .monitor_account_percent_2:before{
+    background:#0c9ef8;
+}
+#CurrentAccountSub .monitor_account_percent_3:before{
+    background:#f32c51;
+}
+#CurrentAccountSub .monitor_account_percent_4:before{
+    background:#705ced;
+}
+#CurrentAccountSub .monitor_account_percent_5:before{
+    background:#ff6b1a;
+}
+#CurrentAccountSub .monitor_account_percent_6:before{
+    background:#f3e501;
+}
+table tr td{padding:10px 2px;}
+table .change{
+    margin:0px 4px;
+    cursor: pointer;
+    color:#1aa6fa;
+}
+table .delete{
+    margin:0px 4px;
+    cursor: pointer;
+    color:#1aa6fa;
+}
+table .disabled{
+    margin:0px 4px;
+    cursor: pointer;
+    color:#1aa6fa;
+}
+.added_btn_block{
+    left: 699px;
+    top: 17px;
+}
+.added_btn{
+    border: 1px solid #d7d7d7;
+    border-radius: 3px;
+    padding: 3px 10px 3px 30px;
+    font-size: 14px;
+    height: 20px;
+    color: #333333;
+    background: url(../../../images/modules/user/add.png) no-repeat 8px 5px;
+    line-height: 20px;
+    cursor: pointer;
+}
+#UserAccountOverlap{
+    color:#333333;
+}
+#UserAccountOverlap .account_overlap_title{
+    font-size:16px;
+    font-weight:700;
+    border-bottom:1px solid #d7d7d7;
+    margin:0px 30px;
+    padding:15px 0px;
+    text-align: center;
+}
+#UserAccountOverlap .account_info_block{
+    margin:13px 20px 0px 20px;
+    font-size:14px;
+}
+#UserAccountOverlap  .inline_div{
+    margin-bottom: 25px;
+}
+#UserAccountOverlap  .superior_account{
+    margin:23px 0px 25px;
+}
+#UserAccountOverlap .lock_area{
+	background:#f6f6f6;
+	padding:10px;
+	margin:0px 0px 10px 0px;
+}
+#UserAccountOverlap .lock_area .superior_account{
+	margin-top:10px;
+}
+#UserAccountOverlap  .inline_div:nth-child(2n+1){
+    margin-right:50px;
+    margin-left: 10px;
+}
+#UserAccountOverlap .lock_area .inline_div{
+	margin-bottom:10px;
+}
+#UserAccountOverlap .lock_area .inline_div:nth-child(2n+1){
+	margin-left:0px;
+	margin-right:50px;
+}
+#UserAccountOverlap .lock_area .inline_div:nth-child(2n){
+	margin-left:0px;
+	margin-right:0px;
+}
+#UserAccountOverlap  span{
+    
+}
+#UserAccountOverlap  .tip_icon:before{
+    content:"*";
+    color:red;
+    position:relative;
+    left:-8px;
+    top:7px;
+}
+#UserAccountOverlap  input{
+    border:1px solid #d7d7d7;
+    padding:2px 5px;
+    height: 26px;
+    width: 173px;
+}
+#UserAccountOverlap .remarks_area{       
+    margin:0px 0px 0px 58px;
+}
+#UserAccountOverlap .remarks_area .account_remarks{       
+    border:1px solid #d7d7d7;
+    height: 80px;
+    width: 496px;
+    overflow:hidden; 
+    resize:none;
+    font-size: 14px;
+}
+#UserAccountOverlap  input:focus{
+    background:#f8f8f8;
+    border:1px solid #2ea7e0;
+}
+#UserAccountOverlap  select{
+    border:1px solid #d7d7d7;
+    width: 183px;
+    height: 26px;
+    padding:2px 0px;
+}
+#UserAccountOverlap  select option{
+   height:26px;
+}
+#UserAccountOverlap .account_attach_info_block{
+    width:571px;
+    margin: 0 auto;
+    padding:17px;
+    border:1px solid #d7d7d7;
+}
+#UserAccountOverlap .btn_block{
+    margin-top:20px;
+    text-align:right;
+    margin:20px 13px 0px 0px;
+}
+#UserAccountOverlap .btn_block .btn{
+    margin:0px 20px 25px 0px;
+}
+#UserAccountOverlap .btn_block .cancel_btn{
+    border:1px solid #d7d7d7;
+    background:#ffffff;
+    color:#333333;
+    cursor: pointer;
+    font-size: 14px;
+    width: 92px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 2px;
+}
+#UserAccountOverlap .btn_block .cancel_btn:hover{
+
+    background:rgba(247,245,241,0.6);
+
+}
+#UserAccountOverlap .account_mode{
+    min-height:115px;
+}
+#UserAccountOverlap input[type="checkbox"]{
+    width:12px;
+    height:12px;
+    position: relative;
+    top:2px;
+}
+#UserAccountOverlap .account_mode .inline_div{
+    margin-bottom:15px;
+}
+
+.MonitorTotalNum{float:left
+	
+	
+}

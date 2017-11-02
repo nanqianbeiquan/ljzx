@@ -1,0 +1,98 @@
+.block_module_list{margin:0px 30px 40px 30px;}
+.block_module_list .block_finance_module{margin:35px 0px 0px 0px;padding:0px 0px 10px 0px;}
+#block_finance_module_1{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}
+#block_finance_module_2{margin:0px 0px 0px 0px;}
+.block_module_list .block_finance_module .element_module_title{font-weight:700;font-size:18px;color:#666666}
+
+.block_module_list .block_finance_module .block_content .block_content_conclusion_element{color:#666666;font-size:14px;line-height:25px;width:418px;padding:20px;font-weight:700;font-size:16px;color:#666666;}
+.block_module_list .block_finance_module .block_content .block_content_conclusion_element p{text-indent: 2em;}
+
+.table_first_category{width:100%;margin:0px 0px 0px 0px;}
+.table_first_category thead tr td{height:40px;font-size:12px;font-size:12px;color:#666666;font-weight:700;}
+.table_first_category thead tr .year{width:220px;}
+.table_first_category thead tr td:first-child{text-align: left;position: relative;}
+.table_first_category thead tr:first-child td:first-child div:nth-child(1){
+    position: absolute;
+    left: 140px;
+    top: 5px;
+}
+.table_first_category thead tr:first-child td:first-child div:nth-child(2){
+    position: absolute;
+    border-top: 1px solid #d7d7d7;
+    width: 188px;
+    left: -2px;
+    top: 20px;
+    transform:rotate(12.5deg);
+    -ms-transform:rotate(12.5deg); 	/* IE 9 */
+    -moz-transform:rotate(12.5deg); 	/* Firefox */
+    -webkit-transform:rotate(12.5deg); /* Safari 和 Chrome */
+    -o-transform:rotate(12.5deg); 	/* Opera */}
+.table_first_category thead tr:first-child td:first-child div:nth-child(3){
+    position:absolute;
+    left: 15px;
+    top: 15px;
+}
+.table_first_category tbody tr td:first-child{background:#f5f8fd;font-size:12px;color:#666666;font-weight:700;}
+.table_first_category tbody tr td{height:20px;font-size:14px;font-weight:500;padding:10px;color:#666666;}
+.table_first_category tbody tr td:last-child{text-align: left;}
+
+#FinanceStatus{height:350px;width:100%;margin:15px 0px 30px 0px;}
+#AbilityEvaluation{height:270px;width:100%;margin:10px 0px 30px 0px;}
+#AbilityEvaluationLabel{min-width: 40px;padding:0px 10px;height:20px;line-height: 20px;font-size:12px;color:#ffffff;background:#1aa6fa;text-align: center;}
+
+#AbilityEvaluationTable .table_first_category thead tr:first-child td:first-child div:nth-child(1){
+    position: absolute;
+    left: 164px;
+    top: 6px;
+}
+#AbilityEvaluationTable .table_first_category thead tr:first-child td:first-child div:nth-child(2){
+    position: absolute;
+    border-top: 1px solid #d7d7d7;
+    width: 218px;
+    left: -3px;
+    top: 20px;
+    transform:rotate(11deg);
+    -ms-transform:rotate(11deg); 	/* IE 9 */
+    -moz-transform:rotate(11deg); 	/* Firefox */
+    -webkit-transform:rotate(11deg); /* Safari 和 Chrome */
+    -o-transform:rotate(11deg); 	/* Opera */}
+#AbilityEvaluationTable .table_first_category thead tr:first-child td:first-child div:nth-child(3){
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+#FinanceSummary{margin:30px 0px 60px 0px;;height:165px;border:3px solid #d7d7d7;background: url(../../../images/modules/finance/finance_summary_back.png)no-repeat right top;background-color:#f5f8fd;}
+#finance_disclaimer{padding:10px 0px 0px 0px;cursor:pointer;font-size:12px;color:#666666;margin:0px 10px 0px 0px;}
+#finance_disclaimer:before{content:url(../../../images/modules/finance/disclaimer_before.png);margin:0px 5px 0px 0px;position:relative;top:3px;}
+.finance_disclaimer:after{content:url(../../../images/modules/finance/disclaimer_after.png);margin:0px 0px 0px 5px;position:relative;top:-3px;}
+.finance_disclaimer_spread:after{content:url(../../../images/modules/finance/disclaimer_after_spread.png);margin:0px 0px 0px 5px;position:relative;top:-3px;}
+
+.finance_disclaimer_content{font-size:14px;color:#666666; line-height:24px;height:0px;overflow: hidden;padding:25px 10px 0px 0px;}
+.finance_disclaimer_content .content_text{text-indent: 2em;}
+
+.block_content_element{margin:0px 0px 30px 0px;}
+
+.table_message{text-align: right;position:relative;top:-25px;font-size:12px;color:#666666;height:0px;}
+.company_name{    
+    font-size: 24px;
+    color: #666666;
+    font-weight: 700;
+    position: relative;
+    height: 0px;
+    margin: 10px 0px 0px 0px;
+    top: 4px;}
+#AbilityEvaluationTable .table_first_category thead tr .year{}
+.table_first_category thead tr .evaluation{text-align: center;}
+#AbilityEvaluationBluePoints{
+    position: relative;
+    left: 148px;
+    top: 20px;
+}
+#AbilityEvaluationBluePoints .blue_point{    
+    border: 3px solid #1aa6fa;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    margin: 0px 108px;}
+#AbilityEvaluation2{height:270px;width:100%;margin:10px 0px 30px 0px;}
